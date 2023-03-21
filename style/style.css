@@ -1,0 +1,77 @@
+body
+{
+    background-color: rgb(122, 165, 130);
+}
+
+nav
+{
+   
+    padding: 10px;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(122, 165, 130);
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: black !important;
+  }  
+  
+
+nav ul li a 
+{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: green;
+}
+
+header
+{
+    background-image: url(../images/images.jpeg);
+    padding: 10px;
+}
+
+footer 
+{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+}
+
+footer p
+{
+    text-align: center;
+    color: white;
+}
+
+#active
+{
+    border: 2px solid yellow;
+}
+
+article
+{
+    color: white;
+    margin-right: 170px;
+}
+
+h2
+{
+    color: white;
+}
