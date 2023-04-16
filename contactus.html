@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- Website template ulas kmo -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Sustainable Living &amp; Sustainable Living Web Template</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="icon" href="images/clipboard-2.ico">
+
+    <style>
+        body {
+            background-image: url("background-image.jpg");
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+    
+        h3 {
+            font-size: 24px;
+            color: #fff;
+            background-color: #333;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+        }
+    
+        form {
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+        }
+    
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+    
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    
+        input[type="submit"],
+        input[type="reset"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            width: 150px;
+        }
+    
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #666;
+        }
+    
+        .required {
+            color: red;
+        }
+    
+        fieldset {
+            border: none;
+            margin: 10px 0;
+        }
+    
+        .marginl {
+            margin-left: 20px;
+        }
+    
+        #message {
+            resize: none;
+        }
+    
+        @media (max-width: 480px) {
+            form {
+                margin: 10px auto;
+                padding: 10px;
+            }
+    
+            input[type="submit"],
+            input[type="reset"] {
+                width: 100%;
+            }
+        }
+    </style>
+	
+</head>
+<body>
+	<header>
+
+		<img style="float:left; margin-right: 10px;" src="images/clipboard-2.ico" alt="Logo" width="110" height="80">
+		<h1 style="color: rgb(0, 0, 0);">Sustainable Living</h1>
+
+		<nav>
+			<ul>
+				<li> <a href="index.html">Home</a></li>
+				<li> <a href="others.html">Others</a></li>
+				<li> <a href="video.html">Video</a></li>
+				<li> <a href="audio.html">Find US</a></li>
+                <li id="active"> <a href="contactus.html">Contact US</a></li>
+			</ul>       
+		</nav>
+
+	</header>
+    <main>
+        <section>
+            <h3>Please enter the following information</h3>
+            <form action="http:/foo.com" method="put">
+                <label for="first_name">First name: <span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required>
+                <label for="last_name">Last name: <span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required>
+                <label for="email">Email: <span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com">
+                <label for="gender">Gender :</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" checked>
+                <label for="other">Other</label><br>
+                <label for="internet">How did you hear about us?</label>
+                <fieldset><input type="checkbox" id="internet" name="internet" value="internet" checked>
+                    <label for="internet">Internet</label><br>
+                    <input type="checkbox" class="marginl" id="newspaper" name="paper" value="paper">
+                    <label for="newspaper">Newspaper</label><br>
+                    <input type="checkbox" class="marginl" id="friend" name="friend" value="friend">
+                    <label for="friend">Friend</label><br>
+                    <input type="checkbox" class="marginl" id="other" name="other" value="other">
+                    <label for="other">Other</label><br>
+                    </fieldset>
+                    <label for="message">Query:</label>
+                    <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea>
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                    </form>
+                    <p style="margin-left: 138px;"><span class="required">*</span> <em>indicates a required field</em></p>
+                    </section>
+        </main>
+
+    
+
+	<footer>
+		<p>&copy 2023 Sustainable Living Project</p>
+	</footer>
+
+
+</body>  
+
+
+</html>             
+
